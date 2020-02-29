@@ -1,0 +1,28 @@
+{
+    "name": "rochev/lcq",
+    "description": "Laravel Code Quality Library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Rochev",
+            "email": "vladimir@rochev.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Rochev\\Laravel\\CodeQuality\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Rochev\\Laravel\\CodeQuality\\": "tests/"
+        }
+    }
+}
